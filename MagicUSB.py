@@ -11,7 +11,9 @@ __version__ = "1.0"
 
 
 # MagicUSB inspired by UsbKILL, nothing like this exists for windows, so I coded my own.
-# Nice Tool I must add, pretty much BSOD's when a new device is added, mimmics UsbKILL
+# Nice Tool I must add, pretty much shut down when a new device is added, mimmics UsbKILL
+# Sadly not all USB devices work, I don't think, most do, but things like an XBOX controller won't, I assume you have to loop through a difference WMI object.
+
 #(C) Dylan Morshead 2016
 
 # this function pretty much mimmics lsusb to a point, PID, VID.
